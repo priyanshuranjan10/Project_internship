@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — UdaanFest</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand">Udaan<span>Fest</span></a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="activities.php">Activities</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.php">Login</a>
+      <a class="btn-nav" href="register.php">Register Now</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container" style="max-width:640px;">
+    <h1>Contact the Organising Committee</h1>
+    <p>Have a question about an activity, your registration, or want to add your college to
+      the participant list? Reach out to us.</p>
+
+    <div class="card" style="margin-top:30px;">
+      <div class="form-grid">
+        <div class="field full">
+          <label for="c-name">Your Name</label>
+          <input type="text" id="c-name" name="name" placeholder="Full name">
+        </div>
+        <div class="field full">
+          <label for="c-email">Email</label>
+          <input type="email" id="c-email" name="email" placeholder="you@example.com">
+        </div>
+        <div class="field full">
+          <label for="c-msg">Message</label>
+          <textarea id="c-msg" name="message" rows="5" placeholder="How can we help?"
+            style="width:100%;padding:10px 12px;border:1px solid #cfc7dd;border-radius:8px;font-family:inherit;"></textarea>
+        </div>
+      </div>
+      <div class="form-actions">
+        <button type="button" class="btn btn-primary" onclick="alert('This demo form does not submit anywhere yet. Wire it to a PHP mail handler if needed.')">Send Message</button>
+      </div>
+    </div>
+
+    <div style="margin-top:36px;">
+      <h3>Organising Committee Office</h3>
+      <p>Email: contact@udaanfest.example<br>
+      Phone: +91-XXXXXXXXXX<br>
+      Address: Inter-College Fest Cell, City/University Campus</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <p>&copy; 2026 UdaanFest — Inter-College Activities Registration Portal.</p>
+    <p class="footer-sub">Built as a B.Tech mini-project | HTML · CSS · JS · PHP · MySQL</p>
+  </div>
+</footer>
+
+</body>
+</html>
