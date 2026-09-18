@@ -158,13 +158,4 @@ To add/remove more activities yourself:
 
 ---
 
-## 7. Deliverables Checklist
 
-- [x] Source code (this folder)
-- [x] `sql/schema.sql` — exportable/importable database structure
-- [x] `data/Activities_Master_List_Customized.xlsx` — customized master list
-- [x] This README
-- [ ] 5–8 screenshots (add to `screenshots/` before zipping for submission)
-- [ ] Optional demo video
-
-**Submission filename:** `RollNumber_Name_ExtracurricularPortal.zip`
